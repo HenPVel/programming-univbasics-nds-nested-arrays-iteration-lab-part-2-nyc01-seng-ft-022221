@@ -17,7 +17,7 @@ def find_min_in_nested_arrays(src)
   while row_index<src.count do
 
     element_index=0
-    smallest_element=0
+    smallest_element=src[row_index][element_index]
     smallest_array=[]
 
 
