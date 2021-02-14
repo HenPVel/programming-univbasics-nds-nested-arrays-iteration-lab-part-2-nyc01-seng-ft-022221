@@ -21,13 +21,13 @@ smallest_array=[]
     smallest_array=[]
 
     while element_index < src[row_index].count do
-      
+
       if smallest_element>src[row_index][element_index]
         smallest_element=src[row_index][element_index]
 #      binding.pry
       end
       element_index+=1
-      
+
   end
   smallest_array << smallest_element
   row_index+=1
