@@ -24,11 +24,11 @@ smallest_array=[]
       if smallest_element>src[row_index][element_index]
         smallest_element=src[row_index][element_index]
 #      binding.pry
+  smallest_array << smallest_element
 
       end
       element_index+=1
   end
-  smallest_array << smallest_element
   row_index+=1
   end
   smallest_array
