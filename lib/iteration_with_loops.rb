@@ -18,7 +18,6 @@ smallest_array=[]
 
     element_index=0
     smallest_element=100
-    smallest_array=[]
 
     while element_index < src[row_index].count do
 
@@ -31,7 +30,7 @@ smallest_array=[]
   end
   smallest_array << smallest_element
   row_index+=1
-  
+
   end
   smallest_array
   end
