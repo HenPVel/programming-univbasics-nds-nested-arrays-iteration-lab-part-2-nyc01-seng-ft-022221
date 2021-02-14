@@ -23,12 +23,12 @@ def find_min_in_nested_arrays(src)
     while element_index < src[row_index].count do
       if smallest_element<src[row_index][element_index]
         smallest_element=src[row_index][element_index]
-      smallest_array << smallest_element
 #      binding.pry
 
       end
       element_index+=1
   end
+  smallest_array << smallest_element
   row_index+=1
   end
   smallest_array
