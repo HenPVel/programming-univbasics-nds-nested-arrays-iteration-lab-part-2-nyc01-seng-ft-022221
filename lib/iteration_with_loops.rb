@@ -27,8 +27,8 @@ smallest_array=[]
 
       end
       element_index+=1
+      smallest_array << smallest_element
   end
-  smallest_array << smallest_element
   row_index+=1
   end
   smallest_array
